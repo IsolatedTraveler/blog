@@ -1,0 +1,20 @@
+# 个人开发学习日志
+## 介绍
+个人在开发过程中遇到的问题以及解决方案
+可能会有理解存在偏差的地方，欢迎提issue指出，共同学习，共同进步。
+---
+## 目录
+### 源码相关
+### 随笔杂谈
+## 赞助我
+如果觉得这些内容不错，请我喝杯咖啡吧。
+
+## 关于作者
+
+作者： 孤独的旅行者
+
+Email：tbydmi@gmail.com
+
+Github: [https://github.com/IsolatedTraveler](https://github.com/IsolatedTraveler)
+
+对内容有任何疑问，欢迎联系我。
