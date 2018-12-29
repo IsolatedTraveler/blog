@@ -6,7 +6,7 @@
 
   2.[webStorage](#webStorage)
 
-  3.Flash存储
+  3.Flash存储：借助Flash播放器
 
   4.IndexedDB
 
