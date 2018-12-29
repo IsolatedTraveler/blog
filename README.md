@@ -18,7 +18,7 @@
 
 #### [前端那点事](./note/webDev.MarkDown)
 
-[localStorage、sessionStorage、cookie](./note/webDev.MarkDown)
+[localStorage、sessionStorage、cookie](./note/webDev/webStorage.MarkDown)
 
 ## 关于作者
 

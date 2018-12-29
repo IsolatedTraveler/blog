@@ -8,6 +8,6 @@
 
 ### 浏览器相关
 
-[localStorage、sessionStorage、cookie](./note/webDev.MarkDown)
+[localStorage、sessionStorage、cookie](./webDev/webStorage.MarkDown)
 
 ### 浏览器无关
