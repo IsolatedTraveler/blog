@@ -18,6 +18,8 @@
 
 #### [前端那点事](./note/webDev.MarkDown)
 
+[localStorage、sessionStorage、cookie](./note/webDev.MarkDown)
+
 ## 关于作者
 
 作者： 孤独的旅行者
