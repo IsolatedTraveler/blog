@@ -2,7 +2,7 @@
 
 本地存储数据分为四种方式：
 
-  1.cookie
+  1.[cookie](#cookie)
 
   2.[webStorage](#webStorage)
 
@@ -10,7 +10,13 @@
 
   4.IndexedDB
 
+## 局限性
+
+多数浏览器提供了隐身/私密模式，这与本地存储的使用存在根本矛盾，为防止用户禁用本地存储，在使用本地存储前应对使用环境进行校验，检查本地存储功能是否可用
+
 ## webStorage
+
+提供了通过浏览器存储键/值对，以更直观的方式比使用cookie机制
 
 ### 特点
 
@@ -18,7 +24,7 @@
 
 2.每个存储源不能大于10MB
 
-3.包括localStorage,sessionStorage
+3.包括[localStorage](#localStorage),[sessionStorage](#sessionStorage)
 
 ### localStorage,sessionStorage公有API
 
@@ -86,5 +92,6 @@ return {Number}  存储数据个数
 
 ### sessionStorage
 
-## cookie
+#### 特点
 
+## cookie
