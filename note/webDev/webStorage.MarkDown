@@ -4,7 +4,7 @@
 
   1.cookie
 
-  2.webStorage
+  2.[webStorage](#webStorage)
 
   3.Flash存储
 
@@ -20,7 +20,7 @@
 
 3.包括localStorage,sessionStorage
 
-### API
+### localStorage,sessionStorage公有API
 
 #### setItem
 
@@ -50,9 +50,19 @@ type: Function
 
 param: {String} [key] (required) 存储数据别名，用于获取/清除/修改数据的唯一识别码
 
-return {String || Null} 值
+return {Undefined}
 
 target: 清除指定存储键值对
+
+#### clear
+
+type: Function
+
+param: null
+
+return {Undefined}
+
+target: 清除所有存储键值对
 
 #### key
 
@@ -63,6 +73,8 @@ param:
 #### length
 
 type: Attribute
+
+return {Number}  存储数据个数
 
 ### localStorage
 
