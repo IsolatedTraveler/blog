@@ -24,19 +24,45 @@
 
 #### setItem
 
-param: key, value
+type: Function
+
+param: {String} [key] (required) 存储数据别名，用于获取/清除/修改数据的唯一识别码
+
+param: {String} [valie] (required) 值
+
+return {Undefined}
+
+target: 设置/修改指定存储键值对
 
 #### getItem
 
-param: key
+type: Function
+
+param: {String} [key] (required) 存储数据别名，用于获取/清除/修改数据的唯一识别码
+
+return {String || Null} 值
+
+target: 获取指定存储键值对
 
 #### removeItem
 
-param: key
+type: Function
+
+param: {String} [key] (required) 存储数据别名，用于获取/清除/修改数据的唯一识别码
+
+return {String || Null} 值
+
+target: 清除指定存储键值对
 
 #### key
 
+type: Function
+
+param:
+
 #### length
+
+type: Attribute
 
 ### localStorage
 
