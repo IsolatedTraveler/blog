@@ -71,7 +71,8 @@ row(默认值):横向排版，起点为左上角
   flex-direction: row;
 }
 ```
-[](./../../../img/flex.direction.row.png)
+
+[1](./../../../img/flex.direction.row.png)
 
 row:横向排版，起点为右上角
 
