@@ -116,4 +116,76 @@ flex-direction: [row](#row) | [row-reverse](#row-reverse) | [column](#column) | 
 
 决定flex超出主方向布局位置时是否换行，以及换行方式
 
-flex: nowrap | wrap | wrap-reverse
+flex: [nowrap](#nowrap) | [wrap](#wrap) | [wrap-reverse](#wrap-reverse)
+
+```html
+	<div class="flex">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+		<div>6</div>
+		<div>7</div>
+		<div>8</div>
+		<div>9</div>
+	</div>
+```
+
+```css
+.flex{
+  display: flex;
+  width: 360px;
+  height: 360px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex>div{
+  display: flex;
+  box-sizing: border-box;
+  width: 96px;
+  height: 96px;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  border: 1px solid red;
+}
+```
+
+#### nowrap
+
+默认值，不换行
+
+```css
+.flex{
+  flex-wrap: nowrap;
+}
+```
+
+![](http://www.sides.top/public/img/flex.wrap.nowrap.png)
+
+#### wrap
+
+换行
+
+```css
+.flex{
+  flex-wrap: wrap;
+}
+```
+
+![](http://www.sides.top/public/img/flex.wrap.wrap.png)
+
+
+#### wrap-reverse
+
+反向换行
+
+```css
+.flex{
+  flex-wrap: wrap-reverse;
+}
+```
+
+![](http://www.sides.top/public/img/flex.wrap.wrap.reverse.png)
+
