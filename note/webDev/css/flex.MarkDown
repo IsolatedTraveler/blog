@@ -71,7 +71,7 @@ row(默认值):横向排版，起点为左上角
   flex-direction: row;
 }
 ```
-[](https://pan.baidu.com/disk/home?errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0&traceid=#/all?vmode=list&path=%2FdevSource%2Fblog%2Fimg)
+[](blog/img/flex.direction.row.png)
 
 row:横向排版，起点为右上角
 
