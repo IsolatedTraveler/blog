@@ -166,7 +166,7 @@ flex: [nowrap](#nowrap) | [wrap](#wrap) | [wrap-reverse](#wrap-reverse)
 
 #### wrap
 
-换行
+换行，常规排版
 
 ```css
 .flex{
@@ -179,7 +179,7 @@ flex: [nowrap](#nowrap) | [wrap](#wrap) | [wrap-reverse](#wrap-reverse)
 
 #### wrap-reverse
 
-反向换行
+反向换行，从最下方往上方排版
 
 ```css
 .flex{
@@ -189,3 +189,8 @@ flex: [nowrap](#nowrap) | [wrap](#wrap) | [wrap-reverse](#wrap-reverse)
 
 ![](http://www.sides.top/public/img/flex.wrap.wrap.reverse.png)
 
+### flex-flow
+
+flex-flow属性是[flex-direction](#flex-direction)属性和[flex-wrap](#flex-wrap)属性的简写形式，默认值为row nowrap。
+
+flex-flow: <flex-direction> <flex-wrap>
