@@ -63,7 +63,7 @@ flex-direction: row | row-reverse | column | column-reverse;
   font-size: 35px;
   border: 1px solid red;
 }
-
+```
 row(默认值):横向排版，起点为左上角
 
 ```css
