@@ -29,7 +29,7 @@
 
 决定flex布局排版方向，默认为横向排版
 
-flex-direction: row | row-reverse | column | column-reverse;
+flex-direction: [row](#row) | [row-reverse](#row-reverse) | [column](#column) | [column-reverse](column-reverse);
 
 ```html
 	<div class="flex">
@@ -64,7 +64,7 @@ flex-direction: row | row-reverse | column | column-reverse;
   border: 1px solid red;
 }
 ```
-row(默认值):横向排版，起点为左上角
+#### row(默认值):横向排版，起点为左上角
 
 ```css
 .flex{
@@ -74,7 +74,7 @@ row(默认值):横向排版，起点为左上角
 
 ![](http://www.sides.top/public/img/flex.direction.row.png)
 
-row-reverse:横向排版，起点为右上角
+#### row-reverse:横向排版，起点为右上角
 
 ```css
 .flex{
@@ -84,7 +84,7 @@ row-reverse:横向排版，起点为右上角
 
 ![](http://www.sides.top/public/img/flex.direction.row.reverse.png)
 
-column:竖向排版，起点为左上角
+#### column:竖向排版，起点为左上角
 
 ```css
 .flex{
@@ -94,7 +94,7 @@ column:竖向排版，起点为左上角
 
 ![](http://www.sides.top/public/img/flex.direction.column.png)
 
-column:竖向排版，起点为左下角
+#### column-reverse:竖向排版，起点为左下角
 
 ```css
 .flex{
@@ -103,3 +103,9 @@ column:竖向排版，起点为左下角
 ```
 
 ![](http://www.sides.top/public/img/flex.direction.column.reverse.png)
+
+### flex-wrap
+
+决定flex超出主方向布局位置时是否换行，以及换行方式
+
+flex: nowrap | wrap | wrap-reverse
