@@ -72,7 +72,7 @@ row(默认值):横向排版，起点为左上角
 }
 ```
 
-[1](./../../../img/flex.direction.row.png)
+[1](http://www.sides.top/public/img/flex.direction.row.png)
 
 row:横向排版，起点为右上角
 
