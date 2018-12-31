@@ -13,9 +13,68 @@
 
 ## flex属性
 
-1.flex-direction
-2.flex-wrap
-3.flex-flow
-4.justify-content
-5.align-items
-6.align-content
+1.[flex-direction](#flex-direction)
+
+2.[flex-wrap](#flex-wrap)
+
+3.[flex-flow](#flex-flow)
+
+4.[justify-content](#flex-content)
+
+5.[align-items](#flex-items)
+
+6.[align-content](#flex-content)
+
+### flex-direction
+
+决定flex布局排版方向，默认为横向排版
+
+flex-direction: row | row-reverse | column | column-reverse;
+
+```html
+	<div class="flex">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+		<div>6</div>
+		<div>7</div>
+		<div>8</div>
+		<div>9</div>
+	</div>
+```
+
+```css
+.flex{
+  display: flex;
+  width: 360px;
+  height: 360px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flex>div{
+  display: flex;
+  box-sizing: border-box;
+  width: 96px;
+  height: 96px;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  border: 1px solid red;
+}
+
+row(默认值):横向排版，起点为左上角
+
+```css
+.flex{
+  flex-direction: row;
+}
+```
+[](https://pan.baidu.com/disk/home?errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0&traceid=#/all?vmode=list&path=%2FdevSource%2Fblog%2Fimg)
+
+row:横向排版，起点为右上角
+
+column:竖向排版，起点为左上角
+
+column:竖向排版，起点为左下角
