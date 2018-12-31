@@ -46,33 +46,33 @@
 
 type: Function
 
+target: 设置/修改指定存储键值对
+
 param: {String} [key] (required) 存储数据别名，用于获取/清除/修改数据的唯一识别码
 
 param: {String} [valie] (required) 值
 
 return {Undefined}
 
-target: 设置/修改指定存储键值对
-
 #### getItem
 
 type: Function
+
+target: 获取指定存储键值对
 
 param: {String} [key] (required) 存储数据别名，用于获取/清除/修改数据的唯一识别码
 
 return {String || Null} 值
 
-target: 获取指定存储键值对
-
 #### removeItem
 
 type: Function
 
+target: 清除指定存储键值对
+
 param: {String} [key] (required) 存储数据别名，用于获取/清除/修改数据的唯一识别码
 
 return {Undefined}
-
-target: 清除指定存储键值对
 
 #### clear
 
@@ -80,9 +80,9 @@ type: Function
 
 param: null
 
-return {Undefined}
-
 target: 清除所有存储键值对
+
+return {Undefined}
 
 #### key
 
@@ -92,11 +92,11 @@ param: {Number} [index] (required) 存储数据别名按字母排序后的序列
 
 return {String || Null} 获取key
 
-target: 通过序列值获取key
-
 #### length
 
 type: Attribute
+
+target: 获取storage存储数据总数量
 
 return {Number}  存储数据个数
 

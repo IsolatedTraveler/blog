@@ -20,6 +20,8 @@
 
 [localStorage、sessionStorage、cookie](./note/webDev/webStorage.MarkDown)
 
+[flex布局](./note/webDev/css/flex.MarkDown)
+
 ## 关于作者
 
 作者： 孤独的旅行者
