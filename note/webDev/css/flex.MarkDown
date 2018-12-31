@@ -193,4 +193,6 @@ flex: [nowrap](#nowrap) | [wrap](#wrap) | [wrap-reverse](#wrap-reverse)
 
 flex-flow属性是[flex-direction](#flex-direction)属性和[flex-wrap](#flex-wrap)属性的简写形式，默认值为row nowrap。
 
+```css
 flex-flow: <flex-direction> <flex-wrap>
+```
