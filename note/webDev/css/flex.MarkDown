@@ -196,3 +196,9 @@ flex-flow属性是[flex-direction](#flex-direction)属性和[flex-wrap](#flex-wr
 ```css
 flex-flow: <flex-direction> <flex-wrap>
 ```
+
+### justify-content
+
+### align-items
+
+### align-content
