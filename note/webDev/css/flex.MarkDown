@@ -64,7 +64,9 @@ flex-direction: [row](#row) | [row-reverse](#row-reverse) | [column](#column) | 
   border: 1px solid red;
 }
 ```
-#### row(默认值):横向排版，起点为左上角
+#### row
+
+(默认值)横向排版，起点为左上角
 
 ```css
 .flex{
@@ -74,7 +76,9 @@ flex-direction: [row](#row) | [row-reverse](#row-reverse) | [column](#column) | 
 
 ![](http://www.sides.top/public/img/flex.direction.row.png)
 
-#### row-reverse:横向排版，起点为右上角
+#### row-reverse
+
+横向排版，起点为右上角
 
 ```css
 .flex{
@@ -84,7 +88,9 @@ flex-direction: [row](#row) | [row-reverse](#row-reverse) | [column](#column) | 
 
 ![](http://www.sides.top/public/img/flex.direction.row.reverse.png)
 
-#### column:竖向排版，起点为左上角
+#### column
+
+竖向排版，起点为左上角
 
 ```css
 .flex{
@@ -94,7 +100,9 @@ flex-direction: [row](#row) | [row-reverse](#row-reverse) | [column](#column) | 
 
 ![](http://www.sides.top/public/img/flex.direction.column.png)
 
-#### column-reverse:竖向排版，起点为左下角
+#### column-reverse
+
+竖向排版，起点为左下角
 
 ```css
 .flex{
