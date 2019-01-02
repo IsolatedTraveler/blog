@@ -25,7 +25,7 @@
 
 6.[align-content](#align-content)
 
-## [flex子元素属性](flex子元素属性)
+## [flex子元素属性](#flex子元素属性)
 
 1.[order](#order)
 
@@ -378,6 +378,8 @@ flex-start,flex-end,center规则和[justify-content](#justify-content)相同值�
 ### align-content
 
 规则和[justify-content](#justify-content)相同值的规则一样，将主轴替换为交叉轴即可,在单一主轴（项目只有一行）上该属性无效
+
+## flex子元素属性
 
 ## flex css 实例
 
