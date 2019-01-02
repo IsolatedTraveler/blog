@@ -357,4 +357,14 @@ flex-start,flex-end,center规则和[justify-content](#justify-content)相同值�
 
 ![](http://www.sides.top/public/img/align.items.baseline.png)
 
+#### stretch
+
+```css
+.flex{
+  align-items: stretch;
+}
+```
+
+![](http://www.sides.top/public/img/align.items.stretch.png)
+
 ### align-content
