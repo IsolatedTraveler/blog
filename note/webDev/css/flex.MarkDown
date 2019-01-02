@@ -25,7 +25,7 @@
 
 6.[align-content](#align-content)
 
-## flex子元素属性
+## [flex子元素属性](flex子元素属性)
 
 1.[order](#order)
 
@@ -399,8 +399,11 @@ flex-start,flex-end,center规则和[justify-content](#justify-content)相同值�
   width: 100%;
   position: relative;
 }
-.flex.row>div{
+.row>div{
   width: auto;
   height: 100%;
+}
+.flex>.auto{
+  flex-grow: 1;
 }
 ```
