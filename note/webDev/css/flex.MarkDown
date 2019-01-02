@@ -278,7 +278,7 @@ justify-content: [flex-start](#flex-start) | [flex-end](#flex-end) | [center](#c
 
 ![](http://www.sides.top/public/img/justify.content.center.png)
 
-#### space-arpund
+#### space-around
 
 主轴方向依次排列，子元素与子元素见自动生成等宽间隔，子元素与子元素的间隔子元素与父元素边框之间的间隔的两倍
 
@@ -288,7 +288,7 @@ justify-content: [flex-start](#flex-start) | [flex-end](#flex-end) | [center](#c
 }
 ```
 
-![](http://www.sides.top/public/img/justify.content.space.around.png)
+![](http://www.sides.top/public/img/justify.content.space-around.png)
 
 #### space-between
 
