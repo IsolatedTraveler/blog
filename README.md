@@ -18,9 +18,11 @@
 
 #### [前端那点事](./note/webDev.MarkDown)
 
-[localStorage、sessionStorage、cookie](./note/webDev/webStorage.MarkDown)
+[localStorage、sessionStorage、cookie](./note/webDev/browser/webStorage.MarkDown)
 
 [flex布局](./note/webDev/css/flex.MarkDown)
+
+[监听浏览器后退事件](./webDev/browser/backEvent.MarkDown)
 
 ## 关于作者
 

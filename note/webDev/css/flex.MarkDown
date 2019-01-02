@@ -25,6 +25,12 @@
 
 6.[align-content](#flex-content)
 
+## flex子元素属性
+
+1.[flex](#flex)
+
+2.[align-self](#align-self)
+
 ### flex-direction
 
 决定flex布局排版方向，默认为横向排版
@@ -198,6 +204,103 @@ flex-flow: <flex-direction> <flex-wrap>
 ```
 
 ### justify-content
+
+决定flex布局在主轴方向上的排版方法
+
+justify-content: [flex-start](#flex-start) | [flex-end](#flex-end) | [center](#center) | [space-around](#space-around) | [space-between](#space-between)
+
+```html
+	<div class="flex">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+		<div>6</div>
+		<div>7</div>
+		<div>8</div>
+		<div>9</div>
+	</div>
+```
+
+```css
+.flex{
+  display: flex;
+  border:1px solid blue;
+  width: 360px;
+  height: 360px;
+  flex-direction: row;
+}
+.flex>div{
+  display: flex;
+  box-sizing: border-box;
+  width: 96px;
+  height: 96px;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  border: 1px solid red;
+}
+```
+#### flex-start
+
+默认值，沿主轴方向依次排列，无特殊样式(左对齐)
+
+```css
+.flex{
+  justify-content: flex-start;
+}
+```
+
+![](http://www.sides.top/public/img/justify.content.flex.start.png)
+
+#### flex-end
+
+沿主轴方向反向依次排列，无特殊样式(右对齐)
+
+```css
+.flex{
+  justify-content: flex-end;
+}
+```
+
+![](http://www.sides.top/public/img/justify.content.flex.end.png)
+
+#### center
+
+主轴方向居中排列，无特殊样式(居中)
+
+```css
+.flex{
+  justify-content: center;
+}
+```
+
+![](http://www.sides.top/public/img/justify.content.center.png)
+
+#### space-arpund
+
+主轴方向依次排列，子元素与子元素见自动生成等宽间隔，子元素与子元素的间隔子元素与父元素边框之间的间隔的两倍
+
+```css
+.flex{
+  justify-content: space-around;
+}
+```
+
+![](http://www.sides.top/public/img/justify.content.space.arownd.png)
+
+#### space-between
+
+主轴方向依次排列，两端无间隔，子元素与子元素见自动生成等宽间隔
+
+```css
+.flex{
+  justify-content: space-between;
+}
+```
+
+![](http://www.sides.top/public/img/justify.content.space-between.png)
 
 ### align-items
 
