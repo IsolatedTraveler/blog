@@ -25,7 +25,7 @@
 
 6.[align-content](#align-content)
 
-## [flex子元素属性](#flex子元素属性)
+## flex子元素属性
 
 1.[order](#order)
 
@@ -380,6 +380,68 @@ flex-start,flex-end,center规则和[justify-content](#justify-content)相同值�
 规则和[justify-content](#justify-content)相同值的规则一样，将主轴替换为交叉轴即可,在单一主轴（项目只有一行）上该属性无效
 
 ## flex子元素属性
+
+作用于flex项目下的直接子元素
+
+### order
+
+order属性定义项目的排列顺序。数值越小，排列越靠前，默认为0。
+
+```css
+.item{
+  order: <integer>;
+}
+```
+
+### flex-grow
+
+flex-grow属性定义项目的放大比例，默认为0，即如果存在剩余空间，也不放大。
+
+将剩余空间等比缩放大小，分配给当前指定项目
+
+如果所有项目的flex-grow属性都为1，则它们将等分剩余空间（如果有的话）。如果一个项目的flex-grow属性为2，其他项目都为1，则前者占据的剩余空间将比其他项多一倍。
+
+```css
+.item{
+  flex-grow:<float>;
+}
+```
+
+### flex-shrink
+
+flex-shrink属性定义了项目的缩小比例，默认为1，即如果空间不足，该项目将缩小。
+
+如果所有项目的flex-shrink属性都为1，当空间不足时，都将等比例缩小。如果一个项目的flex-shrink属性为0，其他项目都为1，则空间不足时，前者不缩小。
+
+负值对该属性无效。
+
+```css
+.item{
+  flex-shrink:<float>;
+}
+```
+
+### flex-basis
+
+重定义项目大小，默认值auto，即项目本身大小
+
+它可以设为跟width或height属性一样的值（比如350px），则项目将占据固定空间。
+
+自我感觉该属性用处不大
+
+### flex
+
+flex属性是[flex-grow](#flex-grow)属性和[flex-shrink](#flex-shrink)属性和[flex-basis](#flex-basis)属性的简写方式
+
+```css
+flex: <flex-grow> <flex-shrink> <flex-basis>
+```
+
+### align-self
+
+align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。
+
+align-self: auto | flex-start | flex-end | center | baseline | stretch;
 
 ## flex css 实例
 
