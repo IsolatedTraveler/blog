@@ -288,7 +288,7 @@ justify-content: [flex-start](#flex-start) | [flex-end](#flex-end) | [center](#c
 }
 ```
 
-![](http://www.sides.top/public/img/justify.content.space.arownd.png)
+![](http://www.sides.top/public/img/justify.content.space.around.png)
 
 #### space-between
 
