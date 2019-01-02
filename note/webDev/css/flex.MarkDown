@@ -229,6 +229,7 @@ justify-content: [flex-start](#flex-start) | [flex-end](#flex-end) | [center](#c
   border:1px solid blue;
   width: 360px;
   height: 360px;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 .flex>div{
@@ -300,12 +301,60 @@ justify-content: [flex-start](#flex-start) | [flex-end](#flex-end) | [center](#c
 }
 ```
 
-![](http://www.sides.top/public/img/justify.content.space-between.png)
+![](http://www.sides.top/public/img/justify.content.space.between.png)
 
-### [align-items]
+### align-items
 
-justify-content:  [flex-start](#flex-start) | [flex-end](#flex-end) | [center](#center) | [baseline](#baseline) | [stretch](#stretch)
+align-items:  flex-start | flex-end | center | [baseline](#baseline) | [stretch](#stretch)
 
 针对子元素在单一主轴上（一行上）交叉轴的排版方式
+
+flex-start,flex-end,center规则和[justify-content](#justify-content)相同值的规则一样，将主轴替换为交叉轴即可
+
+```html
+	<div class="flex">
+		<div style="font-size:22px;">1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div style="font-size:22px;">5</div>
+		<div>6</div>
+		<div>7</div>
+		<div>8</div>
+		<div style="font-size:22px;height:auto;">9</div>
+	</div>
+```
+
+```css
+.flex{
+  display: flex;
+  border:1px solid blue;
+  width: 360px;
+  height: 360px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flex>div{
+  display: flex;
+  box-sizing: border-box;
+  width: 96px;
+  height: 96px;
+  justify-content: center;
+  align-items: center;
+  font-size: 66px;
+  border: 1px solid red;
+}
+```
+
+#### baseline
+
+```css
+.flex{
+  align-items: baseline;
+}
+```
+
+![](http://www.sides.top/public/img/align.items.baseline.png)
 
 ### align-content
