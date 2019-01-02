@@ -14,7 +14,7 @@
 
 ### 随笔杂谈
 
-[爱的艺术笔记](./essay/爱的艺术笔记.MarkDown)
+[爱的艺术笔记](./essay/readBook/爱的艺术笔记.MarkDown)
 
 ### 开发笔记
 
