@@ -19,11 +19,11 @@
 
 3.[flex-flow](#flex-flow)
 
-4.[justify-content](#flex-content)
+4.[justify-content](#justify-content)
 
-5.[align-items](#flex-items)
+5.[align-items](#align-items)
 
-6.[align-content](#flex-content)
+6.[align-content](#align-content)
 
 ## flex子元素属性
 
