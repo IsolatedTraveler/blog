@@ -27,9 +27,17 @@
 
 ## flex子元素属性
 
-1.[flex](#flex)
+1.[order](#order)
 
-2.[align-self](#align-self)
+2.[flex-grow](#flex-grow)
+
+3.[flex-shrink](#flex-shrink)
+
+4.[flex-basis](#flex-basis)
+
+5.[flex](#flex)
+
+6.[align-self](#align-self)
 
 ### flex-direction
 
@@ -370,3 +378,29 @@ flex-start,flex-end,center规则和[justify-content](#justify-content)相同值�
 ### align-content
 
 规则和[justify-content](#justify-content)相同值的规则一样，将主轴替换为交叉轴即可,在单一主轴（项目只有一行）上该属性无效
+
+## flex css 实例
+
+```css
+.flex{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+.flex.row{
+  flex-flow: row nowrap;
+}
+.flex.wrap{
+  flex-wrap: wrap;
+}
+.flex>div{
+  width: 100%;
+  position: relative;
+}
+.flex.row>div{
+  width: auto;
+  height: 100%;
+}
+```
