@@ -302,6 +302,10 @@ justify-content: [flex-start](#flex-start) | [flex-end](#flex-end) | [center](#c
 
 ![](http://www.sides.top/public/img/justify.content.space-between.png)
 
-### align-items
+### [align-items]
+
+justify-content:  [flex-start](#flex-start) | [flex-end](#flex-end) | [center](#center) | [baseline](#baseline) | [stretch](#stretch)
+
+针对子元素在单一主轴上（一行上）交叉轴的排版方式
 
 ### align-content
