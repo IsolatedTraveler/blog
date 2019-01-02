@@ -14,6 +14,8 @@
 
 ### 随笔杂谈
 
+[爱的艺术笔记](./essay/爱的艺术笔记.MarkDown)
+
 ### 开发笔记
 
 #### [前端那点事](./note/webDev.MarkDown)
