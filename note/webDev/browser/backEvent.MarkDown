@@ -85,8 +85,8 @@ export default {
   }
 }
 ```
-**注意：**
+**缺点：**
 
 1.popState仅仅是监听history改变，并不能阻止浏览器的后退事件。即：无论我们在backEvent中做了何种处理，路由实际上是发生了更改的，当前页面也进行了重新加载。
 
-本文实例也可通过监听[vue-router](./../vue/router.MarkDown)实现同样效果
+本文实例也可通过监听[vue-router](./../vue/router.MarkDown#导航守卫)实现同样效果，且无上述缺点
