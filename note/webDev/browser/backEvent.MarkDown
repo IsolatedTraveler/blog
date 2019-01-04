@@ -35,3 +35,58 @@ popstate事件只有浏览器返回按钮以及history.back()事件更改历史�
 ```
 
 ### Vue实例
+
+在浏览器开发中，实际上我们必不能真正的监听到浏览器自带的后退按钮事件，移动开发中，不同过封装程序，我们也不能单纯的通过js代码监听到手机的后退按钮事件。此处我们通过监听浏览器history的改变结合[vuex-store](./../vuex/store.MarkDown)实现模拟监听浏览器后退按钮的效果
+
+1.在store中定义浏览器后退事件(用于判断当前后退事件是否有其他操作)
+
+```javaScript
+import Vuex from 'vuex'
+import Vue from 'vue'
+Vue.use(Vuex)
+var state = {
+  backEvent: null
+},
+getters = {
+  backEvent(state,getters){
+    return state.backEvent
+  }
+},
+mutations = {
+  backEvent(state,val) {
+    state.backEvent = val
+  }
+};
+export default new Vuex.Store({
+  state,
+  getters,
+  mutations
+})
+```
+2.在App.vue中监听history的变化
+
+```javaScript
+export default {
+  computed:{
+    backEvent() {
+      return this.$store.getters.backEvent;
+    }
+  },
+  mounted() {
+    var that = this;
+    if (window.history && window.history.pushState) {
+      window.onpopstate = function() {
+        if(that.backEvent){
+          that.backEvent()
+          that.$store.commit('backEvent',null)
+        }
+      }
+    }
+  }
+}
+```
+**注意：**
+
+1.popState仅仅是监听history改变，并不能阻止浏览器的后退事件。即：无论我们在backEvent中做了何种处理，路由实际上是发生了更改的，当前页面也进行了重新加载。
+
+本文实例也可通过监听[vue-router](./../vue/router.MarkDown)实现同样效果
