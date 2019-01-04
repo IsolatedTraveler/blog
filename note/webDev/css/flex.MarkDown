@@ -470,4 +470,12 @@ align-self: auto | flex-start | flex-end | center | baseline | stretch;
 .flex>.auto{
   flex-grow: 1;
 }
+.absFull{ /*针对部分浏览器使用.auto样式导致页面样式错乱*/
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+}
 ```
