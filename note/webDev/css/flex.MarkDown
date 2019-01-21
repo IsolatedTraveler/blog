@@ -452,6 +452,7 @@ align-self: auto | flex-start | flex-end | center | baseline | stretch;
   justify-content: flex-start;
   align-items: center;
   align-content: center;
+  position: relative;
 }
 .flex.row{
   flex-flow: row nowrap;
@@ -459,16 +460,14 @@ align-self: auto | flex-start | flex-end | center | baseline | stretch;
 .flex.wrap{
   flex-wrap: wrap;
 }
-.flex>div{
+.flex>.auto{
   width: 100%;
+  flex-grow: 1;
   position: relative;
 }
-.row>div{
+.row>.auto{
   width: auto;
   height: 100%;
-}
-.flex>.auto{
-  flex-grow: 1;
 }
 .absFull{ /*针对部分浏览器使用.auto样式导致页面样式错乱*/
   position: absolute;
