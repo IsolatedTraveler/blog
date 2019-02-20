@@ -8,10 +8,10 @@
 
 ### 浏览器相关
 
-[localStorage、sessionStorage、cookie](./webDev/browser/webStorage.MarkDown)
+[localStorage、sessionStorage、cookie](./browser/webStorage.MarkDown)
 
-[监听浏览器后退事件](./webDev/browser/backEvent.MarkDown)
+[监听浏览器后退事件](./browser/backEvent.MarkDown)
 
 ### 浏览器无关
 
-[flex布局](./webDev/css/flex.MarkDown)
+[flex布局](./css/flex.MarkDown)

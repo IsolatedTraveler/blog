@@ -20,9 +20,9 @@
 
 ### 开发笔记
 
-#### [前端那点事](./note/webDev.MarkDown)
+#### [前端那点事](./note/webDev/webDev.MarkDown)
 
-#### [开发工具使用整理](./note/tool.MarkDown)
+#### [开发工具使用整理](./note/tool/tool.MarkDown)
 
 ## 关于作者
 
