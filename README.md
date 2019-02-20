@@ -18,7 +18,7 @@
 
 [爱的艺术笔记](./fragment/readBook/爱的艺术笔记.MarkDown)
 
-### 开发笔记
+### 开发笔记(./note/index.MarkDown)
 
 #### [前端那点事](./note/webDev/webDev.MarkDown)
 
