@@ -18,6 +18,8 @@ npm install axios     基于Promise的HTTP客户端，用于浏览器和node.js�
 
 npm install qs        结合axios使用，序列化字符串（非必需）
 
+npm install sass-loader node-sass --save-dev    引入scss/less(非必需)
+
 ## 3.自定义配置
 
 ### 更改端口
