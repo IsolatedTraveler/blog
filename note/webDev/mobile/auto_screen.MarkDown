@@ -53,13 +53,12 @@ rem是CSS3新增的一个相对单位，使用rem为元素设定字体大小时�
 ```javaScript
 <script type="text/javascript">
   ((doc,win) => {
-    var width1 = 320, fontSize = 12  // 设置最优显示屏幕宽度以及当前屏幕下字体基数大小
-    var body = doc.body,width = body.clientWidth
-    var recalc = () => {
-      body.style.fontSize = fontSize * width / width1
+    var width = 2208 /** 设置最优显示宽度 */, recalc = (a) => {
+      var initialScale = win.screen.availWidth / width, fontSize = initialScale.toFixed(6) * 100
+      doc.documentElement.style.fontSize = fontSize + 'px'
     }
     recalc()
-    win.addEventListener('orientationchange' in window ? 'orientationchange' : 'resize', recalc, false);
+    win['orientationchange' in window ? 'onorientationchange' : 'onresize'] = recalc
   })(document,window)
 </script>
 ```
