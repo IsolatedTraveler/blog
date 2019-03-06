@@ -29,7 +29,7 @@
 <script type="text/javascript">
   ((doc,win) => {
     var width1 = 320, userScalable = 'yes', maximumScale = 2 // 设置最优显示屏幕宽度、是否允许缩放操作['yes','no']、设置基础放大倍数
-    var body = doc.body,width = body.clientWidth
+    var body = doc.documentElement,width = body.clientWidth
     var recalc = () => {
       var initialScale = width1 / width
       document.getElementsByTagName('meta').viewport.content = 'width=device-width, initial-scale=' + initialScale + ', maximum-scale=' + (maximumScale * initialScale) + ', user-scalable=' + userScalable
