@@ -20,15 +20,15 @@
 
 ### [开发笔记](./note/index.MarkDown)
 
-#### [浏览器相关](./webDev/browser/index.MarkDown)
+#### [浏览器相关](./note/browser/index.MarkDown)
 
-#### [css整理](./webDev/css/index.MarkDown)
+#### [css整理](./note/css/index.MarkDown)
 
-#### [移动端开发](./webDev/mobile/index.MarkDown)
+#### [移动端开发](./note/mobile/index.MarkDown)
 
-#### [扩展积累](./webDev)
+#### [扩展积累](./note/index.MarkDown)
 
-### [日常练手](./dev/index.MarkDown)
+#### [日常练手](./note/dev/index.MarkDown)
 
 #### [开发工具使用整理](./tool/tool.MarkDown)
 

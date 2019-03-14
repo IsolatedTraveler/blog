@@ -12,7 +12,7 @@
 
 ### [移动端开发](./webDev/mobile/index.MarkDown)
 
-### [扩展积累](./webDev)
+### [扩展积累](./extend/index.MarkDown)
 
 #### [pl/sql(一个面向Oracle数据库的集成开发环境)](./extend/pl_sql/index.MarkDown)
 
@@ -22,6 +22,6 @@
 
 #### [自定义快捷开发工具整理](./dev/custom_tool/index.MarkDown)
 
-### [开发工具使用整理](./tool/tool.MarkDown)
+### [开发工具使用整理](./tool/index.MarkDown)
 
 ### [开发框架使用整理](./note/iframe/index.MarkDown)
