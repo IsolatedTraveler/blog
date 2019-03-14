@@ -18,6 +18,8 @@
 
 #### [git(分支管理)](./extend/git/index.MarkDown)
 
+### [日常练手](./dev/index.MarkDown)
+
 #### [自定义快捷开发工具整理](./dev/custom_tool/index.MarkDown)
 
 ### [开发工具使用整理](./tool/tool.MarkDown)
