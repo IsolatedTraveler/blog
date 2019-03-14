@@ -16,11 +16,9 @@
 
 ### 随笔杂谈
 
-[^_^]:
-[读书笔记](./fragment/readBook.MarkDown)
+[comment]: <> [读书笔记](./fragment/readBook.MarkDown)
 
-[^_^]:
-[爱的艺术笔记](./fragment/readBook/爱的艺术笔记.MarkDown)
+[comment]: <> [爱的艺术笔记](./fragment/readBook/爱的艺术笔记.MarkDown)
 
 ### [开发笔记](./note/index.MarkDown)
 
@@ -30,7 +28,7 @@
 
 [移动端开发](./note/mobile/index.MarkDown)
 
-[扩展积累](./note/index.MarkDown)
+[扩展积累](./note/extend/index.MarkDown)
 
 [日常练手](./note/dev/index.MarkDown)
 
