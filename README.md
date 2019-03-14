@@ -16,7 +16,7 @@
 
 ### 随笔杂谈
 
-[//]: <>  ([读书笔记](./fragment/readBook.MarkDown))
+[//]: [读书笔记](./fragment/readBook.MarkDown)
 
 [comment]: <> ([爱的艺术笔记](./fragment/readBook/爱的艺术笔记.MarkDown))
 
