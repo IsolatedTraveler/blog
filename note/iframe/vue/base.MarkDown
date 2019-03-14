@@ -12,11 +12,13 @@ vue init webpack ProjectName
 
 cd ProjectName
 
-npm install vuex      全局状态管理（非必需）
+npm install vue-router   路由管理（必需）详情参考[vue router](./router.MarkDown)
 
-npm install axios     基于Promise的HTTP客户端，用于浏览器和node.js（非必需）
+npm install vuex         全局状态管理（非必需）详情参考[vue store](./store.MarkDown)
 
-npm install qs        结合axios使用，序列化字符串（非必需）
+npm install axios        基于Promise的HTTP客户端，用于浏览器和node.js（非必需）
+
+npm install qs           结合axios使用，序列化字符串（非必需）
 
 npm install sass-loader node-sass --save-dev    引入scss/less(非必需)
 
@@ -24,11 +26,25 @@ npm install sass-loader node-sass --save-dev    引入scss/less(非必需)
 
 ### 更改端口
 
-ProjectName/config/index.js
+src:  ProjectName/config/index.js
 
-port:8080
+更改内容
 
-host:'localhost'   ->     host:'0.0.0.0'    解决其他设备访问失败的问题
+    port:8080
+
+    host:'localhost'   ->     host:'0.0.0.0'    解决IP地址问失败的问题
+
+### 更改包名
+
+src: ProjectName/config/index.js
+
+更改内容
+
+    index: path.resolve(__dirname, '../dist/index.html')     更改打包文件路径，方便确认文件位置
+
+    assetsRoot: path.resolve(__dirname, '../dist')       同上
+
+    assetsPublicPath: '/'    ->     assetsPublicPath: './'     变绝对路径为相对路径，解决项目未放在主页时资源加载出错
 
 ### 4.自定义eslint规则
 
