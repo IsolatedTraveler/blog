@@ -3,6 +3,6 @@
 ## 注释
 
 ```MarkDown
-[comment]: <> (引用链接中无效)
-[//]: <> (This is also a comment.)
+[comment]: this is a comment.
+[//]: This is also a comment.
 ```
