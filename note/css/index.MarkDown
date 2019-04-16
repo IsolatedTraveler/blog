@@ -2,6 +2,8 @@
 
 ## 基础知识
 
+[input](./input.MarkDown)
+
 ## 日常积累
 
 [flex布局](./flex.MarkDown)

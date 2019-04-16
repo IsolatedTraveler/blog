@@ -102,3 +102,13 @@ word-wrap是用来标明是否允许浏览器在单词内进行断句，为了�
   white-space: nowrap;
 }
 ```
+
+## 字间距
+
+letter-spacing 属性规定字间距
+
+| 取值 | 描述 |
+| :------ | :------ |
+| normal | 默认。规定字符间没有额外的空间。 |
+| length | 定义字符间的固定空间（允许使用负值）。 |
+| inherit | 规定应该从父元素继承 letter-spacing 属性的值。 |
