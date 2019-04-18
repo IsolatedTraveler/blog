@@ -42,3 +42,5 @@ router.beforeEach((to, from, next) => {
 })
 export default router
 ```
+## 路由懒加载
+
