@@ -4,7 +4,7 @@
 
 ## 基础知识
 
-[localStorage、sessionStorage、cookie](./ebStorage.MarkDown)
+[localStorage、sessionStorage、cookie](./webStorage.MarkDown)
 
 [监听浏览器后退事件](./backEvent.MarkDown)
 
