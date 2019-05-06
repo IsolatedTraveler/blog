@@ -10,4 +10,6 @@ Apache Cordova是一个开源移动开发框架。它允许您使用标准Web技
 
 ### 插件
 
+[cordova-plugin-file-opener2](./plugin.file.opener2.MarkDown)
+
 ### 常见问题

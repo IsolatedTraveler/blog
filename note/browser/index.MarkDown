@@ -10,4 +10,6 @@
 
 [meta](./meta.MarkDown)
 
+[插件介绍](./plugin.MarkDown)
+
 ## 深入探索
