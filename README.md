@@ -32,7 +32,7 @@
 
 [日常练手](./note/dev/index.MarkDown)
 
-[开发工具使用整理](./tool/index.MarkDown)
+[开发工具使用整理](./note/tool/index.MarkDown)
 
 [开发框架使用整理](./note/iframe/index.MarkDown)
 
